@@ -1,0 +1,22 @@
+1:function decleration{sada function banatha ha orr nicha call kartha ha}
+
+function greet() {
+    console.log("Hello");
+}
+
+greet();
+-------------------------------------------
+2:function expretion {bantha ha vraible ka sath}
+
+const greet = function () {
+    console.log("Hello");
+};
+
+greet();
+-------------------------------------------
+3: Arrow function : JavaScript mein short (chhota) aur modern way hai function likhne ka.
+const greet = () => {
+    console.log("Hello");
+};
+
+greet();
