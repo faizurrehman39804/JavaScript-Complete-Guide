@@ -435,6 +435,67 @@ if (name === "fiaz ur rehman") {
 // student4.__proto__=student;
 // student5.__proto__=student;
 
+// ************************** CLass and properteis a:constructer. **************************
+//class is blue print like. da use for parent behaviere use in childe. 
+//a: constructer
+// class Toyotacar{
+// start() {
+//     console.log("start");
+//   }
+
+//   stop() {
+//     console.log("stop");
+//   }
+
+//   fast() {
+//     console.log("fast");
+//   }
+
+//   setbrand(brand){
+//     this.brandname = brand;
+//   }
+//   }
+
+// let furtuner = new Toyotacar();
+// furtuner.setbrand("hihihiih");
+// let liptop = new Toyotacar();
+// ==========================================
+
+// *************************event lishner.
+// let button = document.querySelector("button");
+
+// button.addEventListener("click", function () {
+//   document.body.style.backgroundColor = "red";
+// });
+
+//****(input ma type karana sa input ma data ayy gha jo input ma type kia ho gha. orr per bahkspace per null ayy gha.)
+// let inp = document.querySelector("input");
+
+// inp.addEventListener("input", function(dets) {
+//   console.log(dets.data);
+// })
+
+//****(bask sapce per karana sa null nahi ayy gha ok.)
+// let inp = document.querySelector("input");
+
+// inp.addEventListener("input", function(dets) {
+//   if (dets.data !== null) {
+//     console.log(dets.data);
+//   }
+// })
 
 
->>>>>>> 0275cc8 (Update code)
+let input = document.querySelector("input");
+
+input.addEventListener("input", function (dets) {
+  console.log(dets);
+  
+})
+
+// let input = document.querySelector("input");
+
+// input.addEventListener("input", function (dets) {
+//   if (dets.data !== null) {
+//     console.log(dets.data);
+//   }   
+// })
