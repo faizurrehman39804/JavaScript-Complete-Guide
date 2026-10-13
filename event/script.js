@@ -48,3 +48,8 @@ buuu.addEventListener("mouseout", function () {
     buuu.style.backgroundColor = "yellow";
   }
 );
+
+window.addEventListener("mousemove", function (dets) {
+    console.log(dets);
+    
+});
