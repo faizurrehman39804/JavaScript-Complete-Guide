@@ -38,18 +38,22 @@
 // }
 
 // mouseover and mouseout event lishner.****************
+// let buuu = document.querySelector(".buuu");
+
+// buuu.addEventListener("mouseover", function () {
+//     buuu.style.backgroundColor = "blue";
+//   }
+// );
+// buuu.addEventListener("mouseout", function () {
+//     buuu.style.backgroundColor = "yellow";
+//   }
+// );
+
+// mousemove event lishner.****************
+// when position is absolute in css then mousemove event lishner work.****************
 let buuu = document.querySelector(".buuu");
 
-buuu.addEventListener("mouseover", function () {
-    buuu.style.backgroundColor = "blue";
-  }
-);
-buuu.addEventListener("mouseout", function () {
-    buuu.style.backgroundColor = "yellow";
-  }
-);
-
 window.addEventListener("mousemove", function (dets) {
-    console.log(dets);
-    
+  buuu.style.top = dets.clientY + "px";
+  buuu.style.left = dets.clientX   + "px";
 });
