@@ -51,9 +51,17 @@
 
 // mousemove event lishner.****************
 // when position is absolute in css then mousemove event lishner work.****************
-let buuu = document.querySelector(".buuu");
+// let buuu = document.querySelector(".buuu");
 
-window.addEventListener("mousemove", function (dets) {
-  buuu.style.top = dets.clientY + "px";
-  buuu.style.left = dets.clientX   + "px";
-});
+// window.addEventListener("mousemove", function (dets) {
+//   buuu.style.top = dets.clientY + "px";
+//   buuu.style.left = dets.clientX   + "px";
+// });
+
+let ulll = document.querySelector(".ulll");
+
+ulll.addEventListener("click", function (e) {
+  e.target.style.textDecoration  = "line-through";
+})
+
+
