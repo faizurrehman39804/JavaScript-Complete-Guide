@@ -1,0 +1,1 @@
+localStorage.setItem("faiz", ["tadibyare","irthiza","Najam",""])
