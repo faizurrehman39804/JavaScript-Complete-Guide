@@ -4,13 +4,22 @@
 
 
 // ****************** Functional Scope ******************
-function abcd() {
-  var a = "faiz";
-}
+// function abcd() {
+  // var a = "faiz";
+// }
 
 // ****************** Block Scope ******************
 
 
 
 // ****************** Globle Scope ******************
-var a = 398947 ;
+// var a = 398947 ;
+
+// ****************** Clusors ******************
+
+function faaa(a) {
+  let a = 12;
+  function faiz() {
+    
+  }
+}
