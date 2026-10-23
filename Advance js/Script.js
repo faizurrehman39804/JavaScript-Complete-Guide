@@ -16,10 +16,15 @@
 // var a = 398947 ;
 
 // ****************** Clusors ******************
-
-function faaa(a) {
-  let a = 12;
-  function faiz() {
-    
+messege = "Good Glooble";
+function hello1() {
+  let message = "Good Morning"
+    // let message = "Good Afternoon"
+    console.log("Hello 1: " + message);
+  let c = function hello2() {
+    console.log("i am c " + message);
   }
+  return c 
 }
+c = hello1()
+c()
