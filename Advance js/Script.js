@@ -20,6 +20,5 @@
 function faaa(a) {
   let a = 12;
   function faiz() {
-     
   }
 }
